@@ -1,8 +1,7 @@
 @media (max-width: 376px) {
 
     main {
-        background: url('../img/bg-mobile.svg') center center no-repeat;
-        background-size: cover;
+        background: url('../img/bg-mobile.svg') no-repeat;
     }
 
     .container {
@@ -41,7 +40,6 @@
 
     main {
         background: url('../img/bg-mobile.svg') center center no-repeat;
-        background-size: cover;
     }
 
     .container {
@@ -63,7 +61,11 @@
     }
 
     .container .info h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .container .info p {
+        font-size: 1.8rem;
     }
 
     .container .info .register {
